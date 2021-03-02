@@ -47,9 +47,12 @@ void Triad::add(int x1, int y1, int z1)
 }
 void Triad::multiplay(int x1, int y1, int z1)
 {
+        int r;
 	x *= x1;
 	y *= y1;
 	z *= z1;
+	r = x + y + z;
+	return r;
 }
 void Triad::equal()
 {
